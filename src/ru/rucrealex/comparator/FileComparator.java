@@ -23,8 +23,8 @@ public class FileComparator {
                     .append(" - [list] optional command, show identical file names");
             System.out.println(sb.toString());
             System.exit(0);
-        } else if(args.length == 2) {
-            if(args[1].equalsIgnoreCase("list")) {
+        } else if (args.length == 2) {
+            if (args[1].equalsIgnoreCase("list")) {
                 list = true;
             } else {
                 System.out.println("Error parsing second parameter, must be \"list\" ot nothing.");
